@@ -1,0 +1,32 @@
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cert--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cert--row:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+.cert--img, .cert--title {
+  flex: 1;
+}
+
+.cert--img {
+  width: 50%;
+}
+
+.cert--title {
+  margin-right: 15px;
+}
+
+.cert--row:nth-of-type(odd) .cert--title {
+  margin-left: 15px;
+}
