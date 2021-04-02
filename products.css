@@ -1,0 +1,14 @@
+.tea--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea {
+  flex: 1;
+}
+
+.tea img {
+  width: 100%;
+}
