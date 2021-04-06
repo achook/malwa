@@ -10,6 +10,18 @@
   padding: 30px 0;
 }
 
+h3 {
+  padding: 15px 8px;
+
+  width: 50%;
+  margin: 15px auto;
+
+  background-color: #A14A76;
+  color: white;
+
+  border-radius: 10px;
+}
+
 .new-row {
   width: 100%;
   box-sizing: border-box;
