@@ -1,0 +1,12 @@
+main {
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 22px;
+}
+
+#map {
+    height: 85%;
+    z-index: -10;
+}

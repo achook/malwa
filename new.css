@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.new:nth-child(even) .new-row {
+  flex-direction: row-reverse;
+}
+
 .new-item {
   width: 50%;
 }
