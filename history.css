@@ -1,0 +1,16 @@
+main p {
+    padding: 20px;
+    background-color: #92AD94;
+
+    border-radius: 10px;
+
+    font-size: 1.4em;
+    
+    max-width: 800px;
+
+    margin: 50px auto;
+}
+
+main p:nth-child(odd) {
+    background-color: #F786AA;
+}
