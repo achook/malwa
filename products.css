@@ -7,8 +7,31 @@
 
 .tea {
   flex: 1;
+  margin: 10px;
 }
 
 .tea img {
   width: 100%;
+}
+
+h2 {
+
+  padding: 15px 8px;
+
+  width: 50%;
+  margin: 10px auto;
+
+  background-color: #A14A76;
+  color: white;
+
+  border-radius: 10px;
+}
+
+h3 {
+  padding: 10px 6px;
+
+  background-color: #92AD94;
+  color: black;
+
+  border-radius: 10px;
 }

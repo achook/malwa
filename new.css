@@ -1,11 +1,19 @@
 .new {
+  width: 100%;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding: 30px 0;
 }
 
 .new-row {
+  width: 100%;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -18,4 +26,10 @@
 
 .new-item {
   width: 50%;
+  box-sizing: border-box;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
 }
