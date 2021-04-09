@@ -7,7 +7,13 @@
   justify-content: center;
   align-items: center;
 
-  padding: 30px 0;
+  padding: 10px;
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  border-radius: 20px;
+
+  margin-top: 30px;
 }
 
 h3 {
@@ -16,7 +22,12 @@ h3 {
   width: 50%;
   margin: 15px auto;
 
-  background-color: #A14A76;
+  background: #A14A76;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c1053, #A14A76);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c1053, #A14A76);
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
   color: white;
 
   border-radius: 10px;

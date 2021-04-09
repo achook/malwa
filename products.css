@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .tea {
@@ -21,7 +21,11 @@ h2 {
   width: 50%;
   margin: 10px auto;
 
-  background-color: #A14A76;
+  background: #A14A76;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c1053, #A14A76);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c1053, #A14A76);
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   color: white;
 
   border-radius: 10px;
@@ -30,7 +34,14 @@ h2 {
 h3 {
   padding: 10px 6px;
 
-  background-color: #92AD94;
+  background: #1D976C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92AD94, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92AD94, #1D976C); /* W3C, IE 10+/ Edge, */
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  margin-bottom: 8px;
+
   color: black;
 
   border-radius: 10px;
